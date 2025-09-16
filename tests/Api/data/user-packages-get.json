@@ -1,0 +1,103 @@
+{
+  "accountPackages": [
+    {
+      "ref": 3,
+      "startDateTime": {
+        "date": "2023-08-23 14:57:48.704403",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "endDateTime": {
+        "date": "2023-08-23 14:57:48.704403",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "update": {
+        "date": "2023-08-23 14:57:48.704403",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "deleteOnExpiry": 1,
+      "isFree": true,
+      "billingPeriodMonths": 1,
+      "isActive": true,
+      "package": {
+        "ref": 12,
+        "name": "Test Package",
+        "active": 1,
+        "global": 1,
+        "urlID": "basic",
+        "notifyMarketing": "N",
+        "productType": "add-on",
+        "type": "standard",
+        "contentType": "domain",
+        "offerRebillMonths": 3,
+        "offerRebillActive": 1,
+        "trialDays": 30,
+        "imageURL": "https://example.com/image.jpg",
+        "requirePurchasedDomain": true,
+        "allowMultiplePurchase": true,
+        "showInStore": true,
+        "showInTemplatePicker": true,
+        "bannerHTML": "<div>Test</div>",
+        "affiliateLink": "https://example.com/affiliate",
+        "flowName": "classic",
+        "metadata": [],
+        "brandRef": 23,
+        "brandName": "Test Brand",
+        "defaultCurrencyRef": 23,
+        "currencyCode": "GBP",
+        "currencyName": "Pound Sterling",
+        "currencyTitle": "GBP Pound Sterling",
+        "defaultCampaignRef": 45,
+        "capabilities": {
+          "imageCredits": 10,
+          "genericUseButtonUrl": "https://example.com"
+        },
+        "templateGroupRef": 13,
+        "templateGroup": {},
+        "displayOrder": 999,
+        "domainProduct": {
+          "domainSuffix": ".com",
+          "name": ".co.uk Domains 1 Year",
+          "description": "1 year .co.uk domain registration",
+          "frequencyMonths": 12,
+          "active": 1,
+          "availableAsFreeDomain": 1,
+          "requireCustomContactDetails": true,
+          "renewalActive": 1,
+          "ref": 12,
+          "productSupplier": {
+            "name": "123 Reg",
+            "description": "123 Reg description",
+            "className": "123reg",
+            "ref": 17
+          }
+        },
+        "prices": [
+          {
+            "price": "10.00",
+            "offerPrice": "string",
+            "billingPeriodMonths": 1,
+            "ref": 123,
+            "currency": {
+              "ref": 34,
+              "name": "US Dollar",
+              "alphaCode": "USD",
+              "numCode": "840",
+              "htmlCode": "&#36;",
+              "currencyRate": 1,
+              "paypal": 1
+            },
+            "formattedPrice": "$10.00"
+          }
+        ],
+        "plugins": [
+          0
+        ]
+      },
+      "templateGroupRef": null,
+      "displayOrder": null
+    }
+  ]
+}

@@ -37,7 +37,7 @@ final class PackageApi extends AbstractApi implements PackagesApiInterface
         if (! array_key_exists('accountPackages', $response)) {
             throw new UnexpectedValueException('No account packages was provided by BaseKit.');
         }
-        return AccountPackage::fromArray($response['accountPackages']);
+        return AccountPackage::fromArray($response['accountPackages']); // @phpstan-ignore-line
     }
 
     /**

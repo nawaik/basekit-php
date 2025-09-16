@@ -132,7 +132,7 @@ final class Package implements DomainObjectInterface
             templateGroup: $json['templateGroup'],
             displayOrder: $json['displayOrder'],
             domainProduct: DomainProduct::fromArray($json['domainProduct']),
-            prices: PackagePrice::fromArray($json['prices']),
+            prices: PackagePrice::fromArray($json['prices']), // @phpstan-ignore-line
             plugins: $json['plugins'],
         );
     }

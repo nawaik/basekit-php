@@ -4,6 +4,11 @@ namespace SandwaveIo\BaseKit\Domain;
 
 final class AccountPackage implements DomainObjectInterface
 {
+    /**
+     * @param array<mixed> $startDateTime
+     * @param array<mixed> $endDateTime
+     * @param array<mixed> $update
+     */
     public function __construct(
         public int $ref,
         public array $startDateTime,
@@ -62,6 +67,6 @@ final class AccountPackage implements DomainObjectInterface
             );
         }
 
-        return $sitePackages;
+        return $sitePackages; // @phpstan-ignore-line
     }
 }

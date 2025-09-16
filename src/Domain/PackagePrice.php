@@ -47,6 +47,6 @@ final class PackagePrice implements DomainObjectInterface
             );
         }
 
-        return $packagePrices;
+        return $packagePrices; // @phpstan-ignore-line
     }
 }

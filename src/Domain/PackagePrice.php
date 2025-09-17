@@ -22,7 +22,7 @@ final class PackagePrice implements DomainObjectInterface
         return [
             'price' => $this->price,
             'offerPrice' => $this->offerPrice,
-            'billingPeriodMonth' => $this->billingPeriodMonths,
+            'billingPeriodMonths' => $this->billingPeriodMonths,
             'ref' => $this->ref,
             'currency' => $this->currency,
             'formattedPrice' => $this->formattedPrice,

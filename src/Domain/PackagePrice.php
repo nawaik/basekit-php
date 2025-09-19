@@ -24,7 +24,7 @@ final class PackagePrice implements DomainObjectInterface
             'offerPrice' => $this->offerPrice,
             'billingPeriodMonths' => $this->billingPeriodMonths,
             'ref' => $this->ref,
-            'currency' => $this->currency,
+            'currency' => $this->currency->toArray(),
             'formattedPrice' => $this->formattedPrice,
         ];
     }

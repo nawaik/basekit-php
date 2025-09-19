@@ -33,7 +33,7 @@ final class DomainProduct implements DomainObjectInterface
             'requireCustomContactDetails' => $this->requireCustomContactDetails,
             'renewalActive' => $this->renewalActive,
             'ref' => $this->ref,
-            'productSupplier' => $this->productSupplier,
+            'productSupplier' => $this->productSupplier !== null ? $this->productSupplier->toArray() : [],
         ];
     }
 

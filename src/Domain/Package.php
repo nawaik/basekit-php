@@ -87,7 +87,7 @@ final class Package implements DomainObjectInterface
             'templateGroupRef' => $this->templateGroupRef,
             'templateGroup' => $this->templateGroup,
             'displayOrder' => $this->displayOrder,
-            'domainProduct' => $this->domainProduct,
+            'domainProduct' => $this->domainProduct !== null ? $this->domainProduct->toArray() : [],
             'prices' => $this->prices,
             'plugins' => $this->plugins,
         ];

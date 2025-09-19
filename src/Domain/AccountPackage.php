@@ -38,7 +38,7 @@ final class AccountPackage implements DomainObjectInterface
             'isFree' => $this->isFree,
             'billingPeriodMonths' => $this->billingPeriodMonths,
             'isActive' => $this->isActive,
-            'package' => $this->package,
+            'package' => $this->package->toArray(),
             'templateGroupRef' => $this->templateGroupRef,
             'displayOrder' => $this->displayOrder,
         ];
